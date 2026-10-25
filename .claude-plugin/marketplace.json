@@ -1,0 +1,21 @@
+{
+  "name": "interview-prep",
+  "owner": {
+    "name": "maarshir"
+  },
+  "metadata": {
+    "description": "Пробное собеседование по конкретной вакансии с разбором ответов",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "interview-prep",
+      "description": "Разбор вакансии, сведения о компании со ссылками, вопросы по одному с уточнениями вглубь и разбор ответов",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/interview-prep"
+      ]
+    }
+  ]
+}
